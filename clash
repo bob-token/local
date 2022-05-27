@@ -5,119 +5,77 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - name: _01-1-中国:广东:广州
-    server: 14.29.124.168
-    type: ss
-    port: 24097
-    udp: true
-    password: QazEdcTgb159@$*
-    cipher: aes-128-cfb
-  - name: _02-2-中国:广东:广州
-    server: 14.29.124.168
-    type: ss
-    port: 24098
-    udp: true
-    password: QazEdcTgb159@$*
-    cipher: aes-128-cfb
-  - name: _03-3-中国:广东:广州
-    server: 14.29.124.168
-    type: ss
-    port: 24061
-    udp: true
-    password: QazEdcTgb159@$*
-    cipher: aes-128-cfb
-  - name: _04-4-中国:广东:广州
-    server: 14.29.124.168
-    type: ss
-    port: 24077
-    udp: true
-    password: QazEdcTgb159@$*
-    cipher: aes-128-cfb
-  - name: _05-5-中国:广东:广州
-    server: 14.29.124.168
-    type: ss
-    port: 24028
-    udp: true
-    password: QazEdcTgb159@$*
-    cipher: aes-128-cfb
-  - name: _06-6-中国:广东:广州
-    server: 14.29.124.168
-    type: ss
-    port: 24002
-    udp: true
-    password: QazEdcTgb159@$*
-    cipher: aes-128-cfb
-  - name: _07-7-中国:广东:广州
-    server: 14.29.124.168
-    type: ss
-    port: 24032
-    udp: true
-    password: QazEdcTgb159@$*
-    cipher: aes-128-cfb
-  - name: _08-8-中国:广东:广州
-    server: 14.29.124.168
-    type: ss
-    port: 24086
-    udp: true
-    password: QazEdcTgb159@$*
-    cipher: aes-128-cfb
-  - name: _09-9-中国:广东:广州
-    server: 14.29.124.168
-    type: ss
-    port: 24052
-    udp: true
-    password: QazEdcTgb159@$*
-    cipher: aes-128-cfb
-  - name: _10-10-中国:广东:广州
-    server: 14.29.124.168
-    type: ss
-    port: 24016
-    udp: true
-    password: QazEdcTgb159@$*
-    cipher: aes-128-cfb
-  - name: _11-11-中国:广东:广州
-    server: 14.29.124.168
-    type: ss
-    port: 24036
-    udp: true
-    password: QazEdcTgb159@$*
-    cipher: aes-128-cfb
-  - name: "_12-12-美国:美国:"
+  - name: "_01-1-美国:美国:"
     server: 54.214.170.7
     type: ss
     port: 443
     udp: true
     password: amazonskr05
     cipher: aes-256-cfb
-  - name: _13-13-中国:广东:广州
+  - name: _02-2-中国:广东:广州
     server: 14.29.124.168
     type: ss
-    port: 24089
+    port: 24016
     udp: true
     password: QazEdcTgb159@$*
     cipher: aes-128-cfb
-  - name: _14-14-中国:广东:广州
-    server: 14.29.124.168
+  - name: "🇦🇺 AU_03-3-英国:英国:"
+    server: 185.167.116.252
     type: ss
-    port: 24025
-    udp: true
-    password: QazEdcTgb159@$*
-    cipher: aes-128-cfb
-  - name: _15-15-中国:广东:广州
-    server: 14.29.124.168
+    country: 🇦🇺 AU
+    port: 9008
+    password: y9VURyNzJWNRYEGQ
+    cipher: aes-256-cfb
+  - name: "🇦🇺 AU_04-4-英国:英国:"
+    server: 185.167.116.252
     type: ss
-    port: 24053
-    udp: true
-    password: QazEdcTgb159@$*
-    cipher: aes-128-cfb
-  - name: "🇦🇺 AU_16-16-英国:英国:"
+    country: 🇦🇺 AU
+    port: 9007
+    password: kSPmvwdFzGMMW5pY
+    cipher: aes-256-cfb
+  - name: "🇦🇺 AU_05-5-日本:日本:"
+    server: 43.200.6.115
+    type: ss
+    country: 🇦🇺 AU
+    port: 443
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: "🇦🇺 AU_06-6-英国:英国:"
+    server: 185.167.116.252
+    type: ss
+    country: 🇦🇺 AU
+    port: 9005
+    password: ZET59LF6DvCC8KVt
+    cipher: aes-256-cfb
+  - name: "🇦🇺 AU_07-7-英国:英国:"
     server: 185.167.116.252
     type: ss
     country: 🇦🇺 AU
     port: 9027
     password: EXN3S3eQpjE7EJu8
     cipher: aes-256-cfb
-  - name: "🇦🇺 AU_17-17-澳大利亚:澳大利亚:"
+  - name: "🇦🇺 AU_08-8-英国:英国:"
+    server: 185.167.116.252
+    type: ss
+    country: 🇦🇺 AU
+    port: 9097
+    password: Sn5B7jTqr76aCJT8
+    cipher: aes-256-cfb
+  - name: "🇦🇺 AU_09-9-英国:英国:"
+    server: 185.167.116.252
+    type: ss
+    country: 🇦🇺 AU
+    port: 9006
+    password: FAdUvMJUq5vDgKEq
+    cipher: aes-256-cfb
+  - name: "🇦🇺 AU_10-10-英国:英国:"
+    server: 185.167.116.252
+    type: ss
+    country: 🇦🇺 AU
+    port: 9064
+    password: cp8pRSUAyLhTfVWH
+    cipher: aes-256-cfb
+  - name: "🇦🇺 AU_11-11-澳大利亚:澳大利亚:"
     server: 45.77.48.44
     type: ssr
     country: 🇦🇺 AU
@@ -126,7 +84,7 @@ proxies:
     cipher: aes-256-cfb
     protocol: origin
     obfs: plain
-  - name: "🇦🇺 AU_18-18-澳大利亚:澳大利亚:"
+  - name: "🇦🇺 AU_12-12-澳大利亚:澳大利亚:"
     server: 129.154.48.221
     type: vmess
     country: 🇦🇺 AU
@@ -139,7 +97,23 @@ proxies:
     http-opts: {}
     h2-opts: {}
     skip-cert-verify: true
-  - name: 🇦🇺 AU_19-19-澳大利亚:悉尼
+  - name: 🇦🇺 AU_13-13-澳大利亚:悉尼
+    server: neteasy.cf
+    type: trojan
+    country: 🇦🇺 AU
+    port: 45929
+    password: 2XWUtOT64u
+    skip-cert-verify: true
+    udp: true
+  - name: 🇦🇺 AU_14-14-日本:Osaka
+    server: jgwdb1.gaox.ml
+    type: trojan
+    country: 🇦🇺 AU
+    port: 443
+    password: a580d839-ee41-4df1-bf03-6789dca32e30
+    skip-cert-verify: true
+    udp: true
+  - name: 🇦🇺 AU_15-15-澳大利亚:悉尼
     server: neteasy.ga
     type: trojan
     country: 🇦🇺 AU
@@ -147,19 +121,47 @@ proxies:
     password: MnROfwtPYa
     skip-cert-verify: true
     udp: true
+  - name: "🇧🇬 BG_16-16-保加利亚:保加利亚:"
+    server: 213.183.63.218
+    type: ss
+    country: 🇧🇬 BG
+    port: 9084
+    password: c3NtHJ5ujV2tGDfj
+    cipher: aes-256-cfb
+  - name: "🇧🇬 BG_17-17-保加利亚:保加利亚:"
+    server: 213.183.63.218
+    type: ss
+    country: 🇧🇬 BG
+    port: 9011
+    password: M3t2ZEQcMGRWBjRa
+    cipher: aes-256-cfb
+  - name: "🇧🇬 BG_18-18-保加利亚:保加利亚:"
+    server: 213.183.63.218
+    type: ss
+    country: 🇧🇬 BG
+    port: 9008
+    password: y9VURyNzJWNRYEGQ
+    cipher: aes-256-cfb
+  - name: "🇧🇬 BG_19-19-保加利亚:保加利亚:"
+    server: 213.183.63.218
+    type: ss
+    country: 🇧🇬 BG
+    port: 9060
+    password: ueLXVkvh4hckhErQ
+    cipher: aes-256-cfb
   - name: "🇧🇬 BG_20-20-保加利亚:保加利亚:"
     server: 213.183.63.218
     type: ss
     country: 🇧🇬 BG
-    port: 9042
-    password: S7KwUu7yBy58S3Ga
+    port: 9093
+    password: wfLC2y7rzZyCmuyt
     cipher: aes-256-cfb
   - name: "🇧🇬 BG_21-21-保加利亚:保加利亚:"
     server: 213.183.63.218
     type: ss
     country: 🇧🇬 BG
-    port: 9014
-    password: KnJGad3FqTvjqbaX
+    port: 9097
+    password: Sn5B7jTqr76aCJT8
     cipher: aes-256-cfb
   - name: "🇧🇬 BG_22-22-保加利亚:保加利亚:"
     server: 213.183.63.218
@@ -168,84 +170,147 @@ proxies:
     port: 9059
     password: 9XwYyZsK8SNzQDtY
     cipher: aes-256-cfb
-  - name: "🇨🇦 CA_23-23-美国:美国:"
-    server: 134.195.196.200
+  - name: "🇧🇬 BG_23-23-保加利亚:保加利亚:"
+    server: 213.183.63.218
     type: ss
-    country: 🇨🇦 CA
-    port: 3306
-    password: Y6R9pAtvxxzmGC
-    cipher: aes-256-gcm
-  - name: "🇨🇦 CA_24-24-美国:美国:"
-    server: 134.195.196.200
+    country: 🇧🇬 BG
+    port: 9032
+    password: UWZQeLRWnkqgkseq
+    cipher: aes-256-cfb
+  - name: "🇧🇬 BG_24-24-保加利亚:保加利亚:"
+    server: 213.183.63.218
+    type: ss
+    country: 🇧🇬 BG
+    port: 9000
+    password: a3GFYt36Sm82Vys9
+    cipher: aes-256-cfb
+  - name: "🇧🇬 BG_25-25-保加利亚:保加利亚:"
+    server: 213.183.63.218
+    type: ss
+    country: 🇧🇬 BG
+    port: 9018
+    password: fG2artUmHfNT2cX7
+    cipher: aes-256-cfb
+  - name: "🇧🇬 BG_26-26-保加利亚:保加利亚:"
+    server: 213.183.63.218
+    type: ss
+    country: 🇧🇬 BG
+    port: 9079
+    password: TPqX8edgbAURcAMb
+    cipher: aes-256-cfb
+  - name: "🇧🇬 BG_27-27-保加利亚:保加利亚:"
+    server: 213.183.63.218
+    type: ss
+    country: 🇧🇬 BG
+    port: 9042
+    password: S7KwUu7yBy58S3Ga
+    cipher: aes-256-cfb
+  - name: "🇧🇬 BG_28-28-保加利亚:保加利亚:"
+    server: 213.183.63.218
+    type: ss
+    country: 🇧🇬 BG
+    port: 9014
+    password: KnJGad3FqTvjqbaX
+    cipher: aes-256-cfb
+  - name: "🇨🇦 CA_29-29-美国:美国:"
+    server: 134.195.198.95
     type: ss
     country: 🇨🇦 CA
     port: 2375
     password: faBAoD54k87UJG7
     cipher: aes-256-gcm
-  - name: "🇨🇦 CA_25-25-加拿大:加拿大:"
-    server: 198.57.27.184
-    type: ss
-    country: 🇨🇦 CA
-    port: 7306
-    password: FoOiGlkAA9yPEGP
-    cipher: aes-256-gcm
-  - name: "🇨🇦 CA_26-26-美国:美国:"
-    server: 134.195.196.200
-    type: ss
-    country: 🇨🇦 CA
-    port: 6379
-    password: zDNVedRFPQexG9v
-    cipher: aes-256-gcm
-  - name: "🇨🇦 CA_27-27-美国:美国:"
-    server: 134.195.198.95
-    type: ss
-    country: 🇨🇦 CA
-    port: 2376
-    password: faBAoD54k87UJG7
-    cipher: aes-256-gcm
-  - name: "🇨🇦 CA_28-28-加拿大:加拿大:"
-    server: 198.57.27.184
-    type: ss
-    country: 🇨🇦 CA
-    port: 5004
-    password: g5MeD6Ft3CWlJId
-    cipher: aes-256-gcm
-  - name: "🇨🇦 CA_29-29-美国:美国:"
-    server: 134.195.196.200
-    type: ss
-    country: 🇨🇦 CA
-    port: 8008
-    password: XKFKl2rULjIp74
-    cipher: aes-256-gcm
   - name: "🇨🇦 CA_30-30-美国:美国:"
-    server: 134.195.196.200
-    type: ss
-    country: 🇨🇦 CA
-    port: 2376
-    password: faBAoD54k87UJG7
-    cipher: aes-256-gcm
-  - name: "🇨🇦 CA_31-31-美国:美国:"
-    server: 134.195.196.200
-    type: ss
-    country: 🇨🇦 CA
-    port: 8000
-    password: KixLvKzwjekG00rm
-    cipher: aes-256-gcm
-  - name: "🇨🇦 CA_32-32-美国:美国:"
     server: 134.195.196.200
     type: ss
     country: 🇨🇦 CA
     port: 5003
     password: g5MeD6Ft3CWlJId
     cipher: aes-256-gcm
+  - name: "🇨🇦 CA_31-31-美国:美国:"
+    server: 134.195.196.200
+    type: ss
+    country: 🇨🇦 CA
+    port: 3306
+    password: Y6R9pAtvxxzmGC
+    cipher: aes-256-gcm
+  - name: "🇨🇦 CA_32-32-美国:美国:"
+    server: 134.195.196.200
+    type: ss
+    country: 🇨🇦 CA
+    port: 2376
+    password: faBAoD54k87UJG7
+    cipher: aes-256-gcm
   - name: "🇨🇦 CA_33-33-美国:美国:"
+    server: 134.195.196.200
+    type: ss
+    country: 🇨🇦 CA
+    port: 8008
+    password: XKFKl2rULjIp74
+    cipher: aes-256-gcm
+  - name: "🇨🇦 CA_34-34-美国:美国:"
     server: 134.195.198.95
+    type: ss
+    country: 🇨🇦 CA
+    port: 2376
+    password: faBAoD54k87UJG7
+    cipher: aes-256-gcm
+  - name: "🇨🇦 CA_35-35-美国:美国:"
+    server: 134.195.196.200
+    type: ss
+    country: 🇨🇦 CA
+    port: 6379
+    password: zDNVedRFPQexG9v
+    cipher: aes-256-gcm
+  - name: "🇨🇦 CA_36-36-加拿大:加拿大:"
+    server: 198.57.27.184
+    type: ss
+    country: 🇨🇦 CA
+    port: 7306
+    password: FoOiGlkAA9yPEGP
+    cipher: aes-256-gcm
+  - name: "🇨🇦 CA_37-37-美国:美国:"
+    server: 134.195.196.200
+    type: ss
+    country: 🇨🇦 CA
+    port: 8000
+    password: KixLvKzwjekG00rm
+    cipher: aes-256-gcm
+  - name: "🇨🇦 CA_38-38-美国:美国:"
+    server: 134.195.196.200
     type: ss
     country: 🇨🇦 CA
     port: 2375
     password: faBAoD54k87UJG7
     cipher: aes-256-gcm
-  - name: 🇨🇳 CN_34-34-中国:深圳
+  - name: "🇨🇦 CA_39-39-加拿大:加拿大:"
+    server: 198.57.27.184
+    type: ss
+    country: 🇨🇦 CA
+    port: 5004
+    password: g5MeD6Ft3CWlJId
+    cipher: aes-256-gcm
+  - name: 🇨🇳 CN_40-40-中国:广东:广州
+    server: 14.29.124.168
+    type: ss
+    country: 🇨🇳 CN
+    port: 25241
+    password: QazEdcTgb159@$*
+    cipher: aes-128-cfb
+  - name: 🇨🇳 CN_41-41-中国:广东:广州
+    server: 14.29.124.168
+    type: ss
+    country: 🇨🇳 CN
+    port: 25283
+    password: QazEdcTgb159@$*
+    cipher: aes-128-cfb
+  - name: 🇨🇳 CN_42-42-中国:广东:广州
+    server: 14.29.124.168
+    type: ss
+    country: 🇨🇳 CN
+    port: 25235
+    password: QazEdcTgb159@$*
+    cipher: aes-128-cfb
+  - name: 🇨🇳 CN_43-43-中国:深圳
     server: iepl-gz.safetelescope.cc
     type: ssr
     country: 🇨🇳 CN
@@ -256,55 +321,7 @@ proxies:
     protocol-param: 67915:DHAhtFQpaO
     obfs: tls1.2_ticket_auth
     obfs-param: ajax.microsoft.com
-  - name: 🇨🇳 CN_35-35-中国:深圳
-    server: ingress-i1.onebox6.org
-    type: vmess
-    country: 🇨🇳 CN
-    port: 38201
-    uuid: 79386685-16da-327c-9e14-aa6d702d86bc
-    alterId: 1
-    cipher: auto
-    network: ws
-    ws-path: /hls/cctv5phd.m3u8
-    servername: aweikeji-YouTube
-    ws-headers:
-      HOST: aweikeji-YouTube
-    http-opts: {}
-    h2-opts: {}
-    skip-cert-verify: true
-  - name: 🇨🇳 CN_36-36-中国:深圳
-    server: ingress-i1.onebox6.org
-    type: vmess
-    country: 🇨🇳 CN
-    port: 38701
-    uuid: 79386685-16da-327c-9e14-aa6d702d86bc
-    alterId: 1
-    cipher: auto
-    network: ws
-    ws-path: /hls/cctv5phd.m3u8
-    servername: aweikeji-YouTube
-    ws-headers:
-      HOST: aweikeji-YouTube
-    http-opts: {}
-    h2-opts: {}
-    skip-cert-verify: true
-  - name: 🇨🇳 CN_37-37-中国:深圳
-    server: in-sg-1.onebox6.org
-    type: vmess
-    country: 🇨🇳 CN
-    port: 38701
-    uuid: 79386685-16da-327c-9e14-aa6d702d86bc
-    alterId: 1
-    cipher: auto
-    network: ws
-    ws-path: /hls/cctv5phd.m3u8
-    servername: www.ivpnpro.net
-    ws-headers:
-      HOST: www.ivpnpro.net
-    http-opts: {}
-    h2-opts: {}
-    skip-cert-verify: true
-  - name: 🇨🇳 CN_38-38-中国:坝田
+  - name: 🇨🇳 CN_44-44-中国:坝田
     server: sxqxj.cn
     type: vmess
     country: 🇨🇳 CN
@@ -321,56 +338,66 @@ proxies:
     h2-opts: {}
     tls: true
     skip-cert-verify: true
-  - name: "🇩🇪 DE_39-39-英国:英国:"
-    server: 5.183.179.139
-    type: ss
-    country: 🇩🇪 DE
-    port: 9011
-    password: M3t2ZEQcMGRWBjRa
-    cipher: aes-256-cfb
-  - name: "🇩🇪 DE_40-40-英国:英国:"
-    server: 5.183.179.139
-    type: ss
-    country: 🇩🇪 DE
-    port: 9056
-    password: rNBfNuuANFCAk7KB
-    cipher: aes-256-cfb
-  - name: "🇩🇪 DE_41-41-英国:英国:"
-    server: 5.183.179.139
-    type: ss
-    country: 🇩🇪 DE
-    port: 9084
-    password: c3NtHJ5ujV2tGDfj
-    cipher: aes-256-cfb
-  - name: "🇩🇪 DE_42-42-英国:英国:"
-    server: 5.183.179.139
-    type: ss
-    country: 🇩🇪 DE
-    port: 9073
-    password: daFYagqDdBdA6VTX
-    cipher: aes-256-cfb
-  - name: "🇩🇪 DE_43-43-英国:英国:"
-    server: 5.183.179.148
-    type: ss
-    country: 🇩🇪 DE
-    port: 9003
-    password: JdmRK9gMEqFgs8nP
-    cipher: aes-256-cfb
-  - name: "🇩🇪 DE_44-44-英国:英国:"
+  - name: 🇨🇳 CN_45-45-香港:中環
+    server: 521hk.fans8.xyz
+    type: vmess
+    country: 🇨🇳 CN
+    port: 80
+    uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+    alterId: 2
+    cipher: auto
+    network: ws
+    ws-path: /ray
+    servername: 521hk.fans8.xyz
+    ws-headers:
+      HOST: 521hk.fans8.xyz
+    http-opts: {}
+    h2-opts: {}
+    tls: true
+    skip-cert-verify: true
+  - name: "🇩🇪 DE_46-46-英国:英国:"
     server: 5.183.179.139
     type: ss
     country: 🇩🇪 DE
     port: 9046
     password: NvS8N4Vf8qAGPSCL
     cipher: aes-256-cfb
-  - name: "🇩🇪 DE_45-45-英国:英国:"
+  - name: "🇩🇪 DE_47-47-英国:英国:"
+    server: 5.183.179.148
+    type: ss
+    country: 🇩🇪 DE
+    port: 9003
+    password: JdmRK9gMEqFgs8nP
+    cipher: aes-256-cfb
+  - name: "🇩🇪 DE_48-48-英国:英国:"
     server: 5.183.179.139
     type: ss
     country: 🇩🇪 DE
-    port: 9007
-    password: kSPmvwdFzGMMW5pY
+    port: 9084
+    password: c3NtHJ5ujV2tGDfj
     cipher: aes-256-cfb
-  - name: 🇩🇪 DE_46-46-德国:Falkenstein
+  - name: "🇩🇪 DE_49-49-英国:英国:"
+    server: 5.183.179.139
+    type: ss
+    country: 🇩🇪 DE
+    port: 9073
+    password: daFYagqDdBdA6VTX
+    cipher: aes-256-cfb
+  - name: "🇩🇪 DE_50-50-英国:英国:"
+    server: 5.183.179.139
+    type: ss
+    country: 🇩🇪 DE
+    port: 9056
+    password: rNBfNuuANFCAk7KB
+    cipher: aes-256-cfb
+  - name: "🇩🇪 DE_51-51-英国:英国:"
+    server: 5.183.179.139
+    type: ss
+    country: 🇩🇪 DE
+    port: 9011
+    password: M3t2ZEQcMGRWBjRa
+    cipher: aes-256-cfb
+  - name: 🇩🇪 DE_52-52-德国:Falkenstein
     server: s4.upyun.online
     type: trojan
     country: 🇩🇪 DE
@@ -378,14 +405,22 @@ proxies:
     password: 316b40c0-0dab-4ea1-9666-ac1658b033b2
     skip-cert-verify: true
     udp: true
-  - name: "🇫🇷 FR_47-47-法国:法国:"
+  - name: 🇩🇪 DE_53-53-德国:Falkenstein
+    server: s4.upyun.online
+    type: trojan
+    country: 🇩🇪 DE
+    port: 12340
+    password: c0276440-f163-4f40-a08c-78b158ce6c4f
+    skip-cert-verify: true
+    udp: true
+  - name: "🇫🇷 FR_54-54-法国:法国:"
     server: 149.202.82.172
     type: ss
     country: 🇫🇷 FR
     port: 7002
     password: RexnBgU7EV5ADxG
     cipher: aes-256-gcm
-  - name: 🇬🇧 GB_48-48-英国:伦敦
+  - name: 🇬🇧 GB_55-55-英国:伦敦
     server: s3.upyun.online
     type: trojan
     country: 🇬🇧 GB
@@ -393,62 +428,629 @@ proxies:
     password: c0276440-f163-4f40-a08c-78b158ce6c4f
     skip-cert-verify: true
     udp: true
-  - name: "🇷🇺 RU_49-49-俄罗斯:俄罗斯:"
-    server: 213.183.53.200
+  - name: 🇬🇧 GB_56-56-英国:伦敦
+    server: jgwld1.gaox.ml
+    type: trojan
+    country: 🇬🇧 GB
+    port: 443
+    password: 02e653c9-7c93-46a9-999d-11834bd0c577
+    skip-cert-verify: true
+    udp: true
+  - name: 🇬🇧 GB_57-57-英国:伦敦
+    server: jgwld4.gaox.ml
+    type: trojan
+    country: 🇬🇧 GB
+    port: 443
+    password: 58d32c66-43b1-4561-9951-d87c9123774e
+    skip-cert-verify: true
+    udp: true
+  - name: 🇬🇧 GB_58-58-英国:伦敦
+    server: s3.upyun.online
+    type: trojan
+    country: 🇬🇧 GB
+    port: 12340
+    password: 316b40c0-0dab-4ea1-9666-ac1658b033b2
+    skip-cert-verify: true
+    udp: true
+  - name: 🇮🇳 IN_59-59-印度:海得拉巴
+    server: jgwhdlb1.gaox.ml
+    type: trojan
+    country: 🇮🇳 IN
+    port: 443
+    password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
+    skip-cert-verify: true
+    udp: true
+  - name: 🇯🇵 JP_60-60-日本:东京
+    server: jp1.trojan.tel
+    type: trojan
+    country: 🇯🇵 JP
+    port: 443
+    password: f736834f-1fc8-4738-9884-9afe0eb0d818
+    skip-cert-verify: true
+    udp: true
+  - name: "🇳🇱 NL_61-61-荷兰:荷兰:"
+    server: 213.183.59.211
+    type: ss
+    country: 🇳🇱 NL
+    port: 9061
+    password: 4R3hUfZ2FHhDmNcP
+    cipher: aes-256-cfb
+  - name: "🇳🇱 NL_62-62-荷兰:荷兰:"
+    server: 213.183.59.214
+    type: ss
+    country: 🇳🇱 NL
+    port: 9014
+    password: KnJGad3FqTvjqbaX
+    cipher: aes-256-cfb
+  - name: "🇳🇱 NL_63-63-荷兰:荷兰:"
+    server: 213.183.59.229
+    type: ss
+    country: 🇳🇱 NL
+    port: 9019
+    password: GA9KzeEgvfxNrgmM
+    cipher: aes-256-cfb
+  - name: "🇳🇱 NL_64-64-荷兰:荷兰:"
+    server: 213.183.59.211
+    type: ss
+    country: 🇳🇱 NL
+    port: 9042
+    password: S7KwUu7yBy58S3Ga
+    cipher: aes-256-cfb
+  - name: "🇳🇱 NL_65-65-荷兰:荷兰:"
+    server: 213.183.59.214
+    type: ss
+    country: 🇳🇱 NL
+    port: 9027
+    password: EXN3S3eQpjE7EJu8
+    cipher: aes-256-cfb
+  - name: "🇳🇱 NL_66-66-荷兰:荷兰:"
+    server: 213.183.59.229
+    type: ss
+    country: 🇳🇱 NL
+    port: 9050
+    password: FG5ddLsMPbV5CutE
+    cipher: aes-256-cfb
+  - name: "🇳🇱 NL_67-67-荷兰:荷兰:"
+    server: 213.183.59.229
+    type: ss
+    country: 🇳🇱 NL
+    port: 9079
+    password: TPqX8edgbAURcAMb
+    cipher: aes-256-cfb
+  - name: "🇳🇱 NL_68-68-荷兰:荷兰:"
+    server: 213.183.59.211
+    type: ss
+    country: 🇳🇱 NL
+    port: 9038
+    password: gYCYXfkUQEs2TaJQ
+    cipher: aes-256-cfb
+  - name: "🇳🇱 NL_69-69-荷兰:荷兰:"
+    server: 213.183.59.190
+    type: ss
+    country: 🇳🇱 NL
+    port: 9010
+    password: f63gg8EruDnUrmz4
+    cipher: aes-256-cfb
+  - name: "🇳🇱 NL_70-70-荷兰:荷兰:"
+    server: 213.183.59.229
+    type: ss
+    country: 🇳🇱 NL
+    port: 9042
+    password: S7KwUu7yBy58S3Ga
+    cipher: aes-256-cfb
+  - name: "🇳🇱 NL_71-71-荷兰:荷兰:"
+    server: 213.183.59.229
+    type: ss
+    country: 🇳🇱 NL
+    port: 9020
+    password: BNmAXXxAHYpTRdzu
+    cipher: aes-256-cfb
+  - name: "🇳🇱 NL_72-72-荷兰:荷兰:"
+    server: 213.183.59.211
+    type: ss
+    country: 🇳🇱 NL
+    port: 9040
+    password: p9z5BVADH2YFs3MN
+    cipher: aes-256-cfb
+  - name: "🇳🇱 NL_73-73-荷兰:荷兰:"
+    server: 213.183.59.211
+    type: ss
+    country: 🇳🇱 NL
+    port: 9073
+    password: daFYagqDdBdA6VTX
+    cipher: aes-256-cfb
+  - name: "🇳🇱 NL_74-74-荷兰:荷兰:"
+    server: 213.183.59.211
+    type: ss
+    country: 🇳🇱 NL
+    port: 9088
+    password: f8npKgNzdkss2ytn
+    cipher: aes-256-cfb
+  - name: "🇳🇱 NL_75-75-荷兰:荷兰:"
+    server: 213.183.59.211
+    type: ss
+    country: 🇳🇱 NL
+    port: 9027
+    password: EXN3S3eQpjE7EJu8
+    cipher: aes-256-cfb
+  - name: "🇳🇱 NL_76-76-荷兰:荷兰:"
+    server: 213.183.59.229
+    type: ss
+    country: 🇳🇱 NL
+    port: 9010
+    password: f63gg8EruDnUrmz4
+    cipher: aes-256-cfb
+  - name: "🇳🇱 NL_77-77-荷兰:荷兰:"
+    server: 213.183.59.214
+    type: ss
+    country: 🇳🇱 NL
+    port: 9010
+    password: f63gg8EruDnUrmz4
+    cipher: aes-256-cfb
+  - name: "🇳🇱 NL_78-78-荷兰:荷兰:"
+    server: 213.183.59.214
+    type: ssr
+    country: 🇳🇱 NL
+    port: 9020
+    password: BNmAXXxAHYpTRdzu
+    cipher: aes-256-cfb
+    protocol: origin
+    obfs: plain
+  - name: "🇳🇱 NL_79-79-荷兰:荷兰:"
+    server: 213.183.59.214
+    type: ssr
+    country: 🇳🇱 NL
+    port: 9000
+    password: a3GFYt36Sm82Vys9
+    cipher: aes-256-cfb
+    protocol: origin
+    obfs: plain
+  - name: "🇳🇱 NL_80-80-荷兰:荷兰:"
+    server: 213.183.59.214
+    type: ssr
+    country: 🇳🇱 NL
+    port: 9008
+    password: y9VURyNzJWNRYEGQ
+    cipher: aes-256-cfb
+    protocol: origin
+    obfs: plain
+  - name: "🇳🇱 NL_81-81-荷兰:荷兰:"
+    server: 213.183.59.211
+    type: ssr
+    country: 🇳🇱 NL
+    port: 9064
+    password: cp8pRSUAyLhTfVWH
+    cipher: aes-256-cfb
+    protocol: origin
+    obfs: plain
+  - name: "🇳🇱 NL_82-82-荷兰:荷兰:"
+    server: 213.183.59.214
+    type: ssr
+    country: 🇳🇱 NL
+    port: 9084
+    password: c3NtHJ5ujV2tGDfj
+    cipher: aes-256-cfb
+    protocol: origin
+    obfs: plain
+  - name: "🇳🇱 NL_83-83-荷兰:荷兰:"
+    server: 213.183.59.211
+    type: ssr
+    country: 🇳🇱 NL
+    port: 9025
+    password: XPtzA9sCug3SPR4c
+    cipher: aes-256-cfb
+    protocol: origin
+    obfs: plain
+  - name: "🇷🇺 RU_84-84-俄罗斯:俄罗斯:"
+    server: 217.30.10.63
     type: ss
     country: 🇷🇺 RU
-    port: 9097
-    password: Sn5B7jTqr76aCJT8
+    port: 9079
+    password: TPqX8edgbAURcAMb
     cipher: aes-256-cfb
-  - name: "🇷🇺 RU_50-50-俄罗斯:俄罗斯:"
+  - name: "🇷🇺 RU_85-85-俄罗斯:俄罗斯:"
     server: 217.30.10.64
     type: ss
     country: 🇷🇺 RU
     port: 9043
     password: HSZuyJQcWe8dxNdF
     cipher: aes-256-cfb
-  - name: "🇷🇺 RU_51-51-俄罗斯:俄罗斯:"
+  - name: "🇷🇺 RU_86-86-俄罗斯:俄罗斯:"
+    server: 217.30.10.63
+    type: ss
+    country: 🇷🇺 RU
+    port: 9060
+    password: ueLXVkvh4hckhErQ
+    cipher: aes-256-cfb
+  - name: "🇷🇺 RU_87-87-俄罗斯:俄罗斯:"
+    server: 185.4.65.6
+    type: ss
+    country: 🇷🇺 RU
+    port: 21247
+    password: vDS9G2p
+    cipher: aes-256-cfb
+  - name: "🇷🇺 RU_88-88-俄罗斯:俄罗斯:"
+    server: 217.30.10.64
+    type: ss
+    country: 🇷🇺 RU
+    port: 9040
+    password: p9z5BVADH2YFs3MN
+    cipher: aes-256-cfb
+  - name: "🇷🇺 RU_89-89-俄罗斯:俄罗斯:"
+    server: 217.30.10.63
+    type: ss
+    country: 🇷🇺 RU
+    port: 9025
+    password: XPtzA9sCug3SPR4c
+    cipher: aes-256-cfb
+  - name: "🇷🇺 RU_90-90-俄罗斯:俄罗斯:"
+    server: 217.30.10.63
+    type: ss
+    country: 🇷🇺 RU
+    port: 9053
+    password: SBM7R883jBmnqe6C
+    cipher: aes-256-cfb
+  - name: "🇷🇺 RU_91-91-俄罗斯:俄罗斯:"
+    server: 217.30.10.63
+    type: ss
+    country: 🇷🇺 RU
+    port: 9059
+    password: 9XwYyZsK8SNzQDtY
+    cipher: aes-256-cfb
+  - name: "🇷🇺 RU_92-92-俄罗斯:俄罗斯:"
+    server: 217.30.10.63
+    type: ss
+    country: 🇷🇺 RU
+    port: 9033
+    password: UTJA57ypk2XKQpnm
+    cipher: aes-256-cfb
+  - name: "🇷🇺 RU_93-93-俄罗斯:俄罗斯:"
+    server: 217.30.10.63
+    type: ss
+    country: 🇷🇺 RU
+    port: 9056
+    password: rNBfNuuANFCAk7KB
+    cipher: aes-256-cfb
+  - name: "🇷🇺 RU_94-94-俄罗斯:俄罗斯:"
+    server: 217.30.10.63
+    type: ss
+    country: 🇷🇺 RU
+    port: 9014
+    password: KnJGad3FqTvjqbaX
+    cipher: aes-256-cfb
+  - name: "🇷🇺 RU_95-95-俄罗斯:俄罗斯:"
+    server: 217.30.10.63
+    type: ss
+    country: 🇷🇺 RU
+    port: 9088
+    password: f8npKgNzdkss2ytn
+    cipher: aes-256-cfb
+  - name: "🇷🇺 RU_96-96-俄罗斯:俄罗斯:"
+    server: 217.30.10.63
+    type: ss
+    country: 🇷🇺 RU
+    port: 9032
+    password: UWZQeLRWnkqgkseq
+    cipher: aes-256-cfb
+  - name: "🇷🇺 RU_97-97-俄罗斯:俄罗斯:"
+    server: 217.30.10.63
+    type: ss
+    country: 🇷🇺 RU
+    port: 9001
+    password: UkXRsXvR6buDMG2Y
+    cipher: aes-256-cfb
+  - name: "🇷🇺 RU_98-98-俄罗斯:俄罗斯:"
+    server: 217.30.10.63
+    type: ss
+    country: 🇷🇺 RU
+    port: 9000
+    password: a3GFYt36Sm82Vys9
+    cipher: aes-256-cfb
+  - name: "🇷🇺 RU_99-99-俄罗斯:俄罗斯:"
+    server: 213.183.53.200
+    type: ss
+    country: 🇷🇺 RU
+    port: 9097
+    password: Sn5B7jTqr76aCJT8
+    cipher: aes-256-cfb
+  - name: "🇷🇺 RU_100-100-俄罗斯:俄罗斯:"
+    server: 213.183.53.208
+    type: ss
+    country: 🇷🇺 RU
+    port: 9084
+    password: c3NtHJ5ujV2tGDfj
+    cipher: aes-256-cfb
+  - name: "🇷🇺 RU_101-101-俄罗斯:俄罗斯:"
+    server: 213.183.53.208
+    type: ss
+    country: 🇷🇺 RU
+    port: 9003
+    password: JdmRK9gMEqFgs8nP
+    cipher: aes-256-cfb
+  - name: "🇷🇺 RU_102-102-俄罗斯:俄罗斯:"
+    server: 217.30.10.63
+    type: ss
+    country: 🇷🇺 RU
+    port: 9008
+    password: y9VURyNzJWNRYEGQ
+    cipher: aes-256-cfb
+  - name: "🇷🇺 RU_103-103-俄罗斯:俄罗斯:"
+    server: 217.30.10.63
+    type: ss
+    country: 🇷🇺 RU
+    port: 9064
+    password: cp8pRSUAyLhTfVWH
+    cipher: aes-256-cfb
+  - name: "🇷🇺 RU_104-104-俄罗斯:俄罗斯:"
+    server: 217.30.10.63
+    type: ss
+    country: 🇷🇺 RU
+    port: 9057
+    password: wjTugX3ZtHMB9c3Z
+    cipher: aes-256-cfb
+  - name: "🇷🇺 RU_105-105-俄罗斯:俄罗斯:"
+    server: 217.30.10.64
+    type: ss
+    country: 🇷🇺 RU
+    port: 9024
+    password: BejrQvtu9sqUeNuZ
+    cipher: aes-256-cfb
+  - name: "🇷🇺 RU_106-106-俄罗斯:俄罗斯:"
+    server: 217.30.10.63
+    type: ss
+    country: 🇷🇺 RU
+    port: 9003
+    password: JdmRK9gMEqFgs8nP
+    cipher: aes-256-cfb
+  - name: "🇷🇺 RU_107-107-俄罗斯:俄罗斯:"
+    server: 217.30.10.63
+    type: ss
+    country: 🇷🇺 RU
+    port: 9031
+    password: BwcAUZk8hUFAkDGN
+    cipher: aes-256-cfb
+  - name: "🇷🇺 RU_108-108-俄罗斯:俄罗斯:"
+    server: 217.30.10.63
+    type: ss
+    country: 🇷🇺 RU
+    port: 9043
+    password: HSZuyJQcWe8dxNdF
+    cipher: aes-256-cfb
+  - name: "🇷🇺 RU_109-109-俄罗斯:俄罗斯:"
+    server: 217.30.10.63
+    type: ss
+    country: 🇷🇺 RU
+    port: 9018
+    password: fG2artUmHfNT2cX7
+    cipher: aes-256-cfb
+  - name: "🇷🇺 RU_110-110-俄罗斯:俄罗斯:"
+    server: 217.30.10.63
+    type: ss
+    country: 🇷🇺 RU
+    port: 9015
+    password: ZpNDDKRu9MagNvaf
+    cipher: aes-256-cfb
+  - name: "🇷🇺 RU_111-111-俄罗斯:俄罗斯:"
+    server: 217.30.10.63
+    type: ss
+    country: 🇷🇺 RU
+    port: 9084
+    password: c3NtHJ5ujV2tGDfj
+    cipher: aes-256-cfb
+  - name: "🇷🇺 RU_112-112-俄罗斯:俄罗斯:"
+    server: 217.30.10.63
+    type: ss
+    country: 🇷🇺 RU
+    port: 9010
+    password: f63gg8EruDnUrmz4
+    cipher: aes-256-cfb
+  - name: "🇷🇺 RU_113-113-俄罗斯:俄罗斯:"
+    server: 217.30.10.64
+    type: ss
+    country: 🇷🇺 RU
+    port: 9006
+    password: FAdUvMJUq5vDgKEq
+    cipher: aes-256-cfb
+  - name: "🇷🇺 RU_114-114-俄罗斯:俄罗斯:"
+    server: 217.30.10.63
+    type: ss
+    country: 🇷🇺 RU
+    port: 9024
+    password: BejrQvtu9sqUeNuZ
+    cipher: aes-256-cfb
+  - name: "🇷🇺 RU_115-115-俄罗斯:俄罗斯:"
+    server: 217.30.10.63
+    type: ss
+    country: 🇷🇺 RU
+    port: 9094
+    password: rpgbNnU9rDDU4aWZ
+    cipher: aes-256-cfb
+  - name: "🇷🇺 RU_116-116-俄罗斯:俄罗斯:"
+    server: 217.30.10.63
+    type: ss
+    country: 🇷🇺 RU
+    port: 9042
+    password: S7KwUu7yBy58S3Ga
+    cipher: aes-256-cfb
+  - name: "🇷🇺 RU_117-117-俄罗斯:俄罗斯:"
+    server: 217.30.10.63
+    type: ss
+    country: 🇷🇺 RU
+    port: 9011
+    password: M3t2ZEQcMGRWBjRa
+    cipher: aes-256-cfb
+  - name: "🇷🇺 RU_118-118-俄罗斯:俄罗斯:"
+    server: 217.30.10.64
+    type: ss
+    country: 🇷🇺 RU
+    port: 9042
+    password: S7KwUu7yBy58S3Ga
+    cipher: aes-256-cfb
+  - name: "🇷🇺 RU_119-119-俄罗斯:俄罗斯:"
+    server: 217.30.10.64
+    type: ss
+    country: 🇷🇺 RU
+    port: 9045
+    password: Lp27rqyJq72bZsqX
+    cipher: aes-256-cfb
+  - name: "🇷🇺 RU_120-120-俄罗斯:俄罗斯:"
+    server: 217.30.10.63
+    type: ss
+    country: 🇷🇺 RU
+    port: 9041
+    password: U6qnYRhfyDmn8sgn
+    cipher: aes-256-cfb
+  - name: "🇷🇺 RU_121-121-俄罗斯:俄罗斯:"
+    server: 217.30.10.63
+    type: ss
+    country: 🇷🇺 RU
+    port: 9040
+    password: p9z5BVADH2YFs3MN
+    cipher: aes-256-cfb
+  - name: "🇷🇺 RU_122-122-俄罗斯:俄罗斯:"
+    server: 217.30.10.64
+    type: ss
+    country: 🇷🇺 RU
+    port: 9094
+    password: rpgbNnU9rDDU4aWZ
+    cipher: aes-256-cfb
+  - name: "🇷🇺 RU_123-123-俄罗斯:俄罗斯:"
+    server: 217.30.10.63
+    type: ss
+    country: 🇷🇺 RU
+    port: 9038
+    password: gYCYXfkUQEs2TaJQ
+    cipher: aes-256-cfb
+  - name: "🇷🇺 RU_124-124-俄罗斯:俄罗斯:"
+    server: 217.30.10.63
+    type: ss
+    country: 🇷🇺 RU
+    port: 9045
+    password: Lp27rqyJq72bZsqX
+    cipher: aes-256-cfb
+  - name: "🇷🇺 RU_125-125-俄罗斯:俄罗斯:"
+    server: 217.30.10.64
+    type: ss
+    country: 🇷🇺 RU
+    port: 9070
+    password: bf7v334KKDV3YDhH
+    cipher: aes-256-cfb
+  - name: "🇷🇺 RU_126-126-俄罗斯:俄罗斯:"
+    server: 217.30.10.64
+    type: ss
+    country: 🇷🇺 RU
+    port: 9026
+    password: QWDDvVE9npNurQfA
+    cipher: aes-256-cfb
+  - name: "🇷🇺 RU_127-127-俄罗斯:俄罗斯:"
+    server: 217.30.10.63
+    type: ss
+    country: 🇷🇺 RU
+    port: 9097
+    password: Sn5B7jTqr76aCJT8
+    cipher: aes-256-cfb
+  - name: "🇷🇺 RU_128-128-俄罗斯:俄罗斯:"
+    server: 217.30.10.63
+    type: ss
+    country: 🇷🇺 RU
+    port: 9037
+    password: TN2YqghxeFDKZfLU
+    cipher: aes-256-cfb
+  - name: "🇷🇺 RU_129-129-俄罗斯:俄罗斯:"
+    server: 217.30.10.64
+    type: ss
+    country: 🇷🇺 RU
+    port: 9001
+    password: UkXRsXvR6buDMG2Y
+    cipher: aes-256-cfb
+  - name: "🇷🇺 RU_130-130-俄罗斯:俄罗斯:"
+    server: 217.30.10.63
+    type: ss
+    country: 🇷🇺 RU
+    port: 9050
+    password: FG5ddLsMPbV5CutE
+    cipher: aes-256-cfb
+  - name: "🇷🇺 RU_131-131-俄罗斯:俄罗斯:"
+    server: 217.30.10.64
+    type: ss
+    country: 🇷🇺 RU
+    port: 9088
+    password: f8npKgNzdkss2ytn
+    cipher: aes-256-cfb
+  - name: "🇷🇺 RU_132-132-俄罗斯:俄罗斯:"
+    server: 213.183.53.177
+    type: ss
+    country: 🇷🇺 RU
+    port: 9037
+    password: TN2YqghxeFDKZfLU
+    cipher: aes-256-cfb
+  - name: "🇷🇺 RU_133-133-俄罗斯:俄罗斯:"
+    server: 217.30.10.64
+    type: ss
+    country: 🇷🇺 RU
+    port: 9057
+    password: wjTugX3ZtHMB9c3Z
+    cipher: aes-256-cfb
+  - name: "🇷🇺 RU_134-134-俄罗斯:俄罗斯:"
+    server: 213.183.53.177
+    type: ss
+    country: 🇷🇺 RU
+    port: 9088
+    password: f8npKgNzdkss2ytn
+    cipher: aes-256-cfb
+  - name: "🇷🇺 RU_135-135-俄罗斯:俄罗斯:"
     server: 217.30.10.64
     type: ss
     country: 🇷🇺 RU
     port: 9007
     password: kSPmvwdFzGMMW5pY
     cipher: aes-256-cfb
-  - name: "🇷🇺 RU_52-52-俄罗斯:俄罗斯:"
-    server: 213.183.53.177
+  - name: "🇷🇺 RU_136-136-俄罗斯:俄罗斯:"
+    server: 217.30.10.64
     type: ss
     country: 🇷🇺 RU
-    port: 9007
-    password: kSPmvwdFzGMMW5pY
+    port: 9041
+    password: U6qnYRhfyDmn8sgn
     cipher: aes-256-cfb
-  - name: "🇷🇺 RU_53-53-俄罗斯:俄罗斯:"
-    server: 217.30.10.63
-    type: ss
-    country: 🇷🇺 RU
-    port: 9093
-    password: wfLC2y7rzZyCmuyt
-    cipher: aes-256-cfb
-  - name: "🇷🇺 RU_54-54-俄罗斯:俄罗斯:"
+  - name: "🇷🇺 RU_137-137-俄罗斯:俄罗斯:"
     server: 217.30.10.63
     type: ss
     country: 🇷🇺 RU
     port: 9027
     password: EXN3S3eQpjE7EJu8
     cipher: aes-256-cfb
-  - name: 🇸🇬 SG_55-55-新加坡:新加坡
-    server: sgp02.sharecentre.xyz
+  - name: "🇷🇺 RU_138-138-俄罗斯:俄罗斯:"
+    server: 217.30.10.64
+    type: ss
+    country: 🇷🇺 RU
+    port: 9084
+    password: c3NtHJ5ujV2tGDfj
+    cipher: aes-256-cfb
+  - name: "🇷🇺 RU_139-139-俄罗斯:俄罗斯:"
+    server: 217.30.10.63
+    type: ss
+    country: 🇷🇺 RU
+    port: 9093
+    password: wfLC2y7rzZyCmuyt
+    cipher: aes-256-cfb
+  - name: 🇷🇺 RU_140-140-乌克兰:Kyiv
+    server: 422wkl.fans8.xyz
     type: vmess
-    country: 🇸🇬 SG
-    port: 58309
-    uuid: 4e245edd-629d-4cb3-afca-321dea87aad5
-    alterId: 0
+    country: 🇷🇺 RU
+    port: 443
+    uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+    alterId: 2
     cipher: auto
     network: ws
-    ws-path: /
+    ws-path: /ray
+    servername: 422wkl.fans8.xyz
+    ws-headers:
+      HOST: 422wkl.fans8.xyz
     http-opts: {}
     h2-opts: {}
+    tls: true
     skip-cert-verify: true
-  - name: 🇸🇬 SG_56-56-新加坡:新加坡
+  - name: 🇸🇬 SG_141-141-新加坡:新加坡
     server: sg.sharecentrepro.tk
     type: trojan
     country: 🇸🇬 SG
@@ -456,227 +1058,147 @@ proxies:
     password: sharecentre
     skip-cert-verify: true
     udp: true
-  - name: "🇺🇸 US_57-57-瑞典:瑞典:"
+  - name: "🇺🇸 US_142-142-瑞典:瑞典:"
     server: 167.88.63.61
     type: ss
     country: 🇺🇸 US
     port: 8119
     password: cdBIDV42DCwnfIN
     cipher: aes-256-gcm
-  - name: "🇺🇸 US_58-58-瑞典:瑞典:"
-    server: 167.88.62.34
+  - name: "🇺🇸 US_143-143-加拿大:加拿大:"
+    server: 142.202.48.34
     type: ss
     country: 🇺🇸 US
     port: 8091
     password: PCnnH6SQSnfoS27
     cipher: aes-256-gcm
-  - name: "🇺🇸 US_59-59-瑞典:瑞典:"
-    server: 167.88.63.28
+  - name: "🇺🇸 US_144-144-美国:美国:"
+    server: 172.96.192.58
     type: ss
     country: 🇺🇸 US
-    port: 2376
-    password: faBAoD54k87UJG7
-    cipher: aes-256-gcm
-  - name: "🇺🇸 US_60-60-美国:美国:"
+    port: 254
+    password: bwhskrskr03
+    cipher: aes-256-cfb
+  - name: "🇺🇸 US_145-145-美国:美国:"
     server: 38.121.43.71
     type: ss
     country: 🇺🇸 US
     port: 3306
     password: Y6R9pAtvxxzmGC
     cipher: aes-256-gcm
-  - name: "🇺🇸 US_61-61-加拿大:加拿大:"
-    server: 142.202.48.34
-    type: ss
-    country: 🇺🇸 US
-    port: 5004
-    password: g5MeD6Ft3CWlJId
-    cipher: aes-256-gcm
-  - name: "🇺🇸 US_62-62-加拿大:加拿大:"
-    server: 142.202.48.34
-    type: ss
-    country: 🇺🇸 US
-    port: 8091
-    password: PCnnH6SQSnfoS27
-    cipher: aes-256-gcm
-  - name: "🇺🇸 US_63-63-加拿大:加拿大:"
-    server: 142.202.48.77
-    type: ss
-    country: 🇺🇸 US
-    port: 8090
-    password: PCnnH6SQSnfoS27
-    cipher: aes-256-gcm
-  - name: "🇺🇸 US_64-64-美国:美国:"
-    server: 172.99.190.149
-    type: ss
-    country: 🇺🇸 US
-    port: 3306
-    password: Y6R9pAtvxxzmGC
-    cipher: aes-256-gcm
-  - name: "🇺🇸 US_65-65-美国:美国:"
-    server: 38.68.134.23
-    type: ss
-    country: 🇺🇸 US
-    port: 443
-    password: pKEW8JPByTVTLtM
-    cipher: aes-256-gcm
-  - name: "🇺🇸 US_66-66-加拿大:加拿大:"
-    server: 142.202.48.34
-    type: ss
-    country: 🇺🇸 US
-    port: 7307
-    password: FoOiGlkAA9yPEGP
-    cipher: aes-256-gcm
-  - name: "🇺🇸 US_67-67-美国:美国:"
-    server: 172.99.190.149
-    type: ss
-    country: 🇺🇸 US
-    port: 5003
-    password: g5MeD6Ft3CWlJId
-    cipher: aes-256-gcm
-  - name: "🇺🇸 US_68-68-瑞典:瑞典:"
+  - name: "🇺🇸 US_146-146-瑞典:瑞典:"
     server: 167.88.63.61
     type: ss
     country: 🇺🇸 US
     port: 9101
     password: e4FCWrgpkji3QY
     cipher: aes-256-gcm
-  - name: "🇺🇸 US_69-69-美国:美国:"
-    server: 38.68.134.23
-    type: ss
-    country: 🇺🇸 US
-    port: 8882
-    password: kDWvXYZoTBcGkC4
-    cipher: aes-256-gcm
-  - name: "🇺🇸 US_70-70-瑞典:瑞典:"
-    server: 167.88.63.74
-    type: ss
-    country: 🇺🇸 US
-    port: 2376
-    password: faBAoD54k87UJG7
-    cipher: aes-256-gcm
-  - name: "🇺🇸 US_71-71-加拿大:加拿大:"
-    server: 142.202.48.58
-    type: ss
-    country: 🇺🇸 US
-    port: 7306
-    password: FoOiGlkAA9yPEGP
-    cipher: aes-256-gcm
-  - name: "🇺🇸 US_72-72-瑞典:瑞典:"
-    server: 167.88.63.61
-    type: ss
-    country: 🇺🇸 US
-    port: 8118
-    password: cdBIDV42DCwnfIN
-    cipher: aes-256-gcm
-  - name: "🇺🇸 US_73-73-美国:美国:"
-    server: 172.99.190.149
-    type: ss
-    country: 🇺🇸 US
-    port: 7307
-    password: FoOiGlkAA9yPEGP
-    cipher: aes-256-gcm
-  - name: "🇺🇸 US_74-74-美国:美国:"
-    server: 172.99.190.149
-    type: ss
-    country: 🇺🇸 US
-    port: 2375
-    password: faBAoD54k87UJG7
-    cipher: aes-256-gcm
-  - name: "🇺🇸 US_75-75-美国:美国:"
-    server: 38.68.134.23
-    type: ss
-    country: 🇺🇸 US
-    port: 8881
-    password: kDWvXYZoTBcGkC4
-    cipher: aes-256-gcm
-  - name: "🇺🇸 US_76-76-加拿大:加拿大:"
+  - name: "🇺🇸 US_147-147-加拿大:加拿大:"
     server: 142.202.48.34
     type: ss
     country: 🇺🇸 US
     port: 3306
     password: Y6R9pAtvxxzmGC
     cipher: aes-256-gcm
-  - name: "🇺🇸 US_77-77-瑞典:瑞典:"
-    server: 167.88.62.34
+  - name: "🇺🇸 US_148-148-美国:美国:"
+    server: 172.99.190.149
     type: ss
     country: 🇺🇸 US
-    port: 2376
+    port: 2375
     password: faBAoD54k87UJG7
     cipher: aes-256-gcm
-  - name: "🇺🇸 US_78-78-美国:美国:"
-    server: 172.99.190.149
-    type: ss
-    country: 🇺🇸 US
-    port: 7306
-    password: FoOiGlkAA9yPEGP
-    cipher: aes-256-gcm
-  - name: "🇺🇸 US_79-79-美国:美国:"
-    server: 172.99.190.149
-    type: ss
-    country: 🇺🇸 US
-    port: 8090
-    password: PCnnH6SQSnfoS27
-    cipher: aes-256-gcm
-  - name: "🇺🇸 US_80-80-瑞典:瑞典:"
-    server: 167.88.62.34
-    type: ss
-    country: 🇺🇸 US
-    port: 7307
-    password: FoOiGlkAA9yPEGP
-    cipher: aes-256-gcm
-  - name: "🇺🇸 US_81-81-美国:美国:"
-    server: 172.99.190.149
+  - name: "🇺🇸 US_149-149-加拿大:加拿大:"
+    server: 142.202.48.34
     type: ss
     country: 🇺🇸 US
     port: 5004
     password: g5MeD6Ft3CWlJId
     cipher: aes-256-gcm
-  - name: "🇺🇸 US_82-82-美国:美国:"
-    server: 38.121.43.71
-    type: ss
-    country: 🇺🇸 US
-    port: 5003
-    password: g5MeD6Ft3CWlJId
-    cipher: aes-256-gcm
-  - name: "🇺🇸 US_83-83-美国:美国:"
-    server: 38.68.134.23
-    type: ss
-    country: 🇺🇸 US
-    port: 3306
-    password: Y6R9pAtvxxzmGC
-    cipher: aes-256-gcm
-  - name: "🇺🇸 US_84-84-美国:美国:"
-    server: 172.99.190.149
-    type: ss
-    country: 🇺🇸 US
-    port: 3389
-    password: Y6R9pAtvxxzmGC
-    cipher: aes-256-gcm
-  - name: "🇺🇸 US_85-85-瑞典:瑞典:"
+  - name: "🇺🇸 US_150-150-瑞典:瑞典:"
     server: 167.88.63.61
     type: ss
     country: 🇺🇸 US
     port: 8881
     password: kDWvXYZoTBcGkC4
     cipher: aes-256-gcm
-  - name: 🇺🇸 US_86-86-加拿大:多伦多
-    server: v5.ssrsub.com
-    type: vmess
+  - name: "🇺🇸 US_151-151-加拿大:加拿大:"
+    server: 142.202.48.58
+    type: ss
     country: 🇺🇸 US
-    port: 443
-    uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-path: /api/v3/download.getFile
-    servername: v5.ssrsub.com
-    ws-headers:
-      HOST: v5.ssrsub.com
-    http-opts: {}
-    h2-opts: {}
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸 US_87-87-加拿大:多伦多
+    port: 7306
+    password: FoOiGlkAA9yPEGP
+    cipher: aes-256-gcm
+  - name: "🇺🇸 US_152-152-美国:美国:"
+    server: 172.99.190.149
+    type: ss
+    country: 🇺🇸 US
+    port: 3389
+    password: Y6R9pAtvxxzmGC
+    cipher: aes-256-gcm
+  - name: "🇺🇸 US_153-153-美国:美国:"
+    server: 172.99.190.149
+    type: ss
+    country: 🇺🇸 US
+    port: 7307
+    password: FoOiGlkAA9yPEGP
+    cipher: aes-256-gcm
+  - name: "🇺🇸 US_154-154-瑞典:瑞典:"
+    server: 167.88.63.61
+    type: ss
+    country: 🇺🇸 US
+    port: 8118
+    password: cdBIDV42DCwnfIN
+    cipher: aes-256-gcm
+  - name: "🇺🇸 US_155-155-美国:美国:"
+    server: 172.99.190.149
+    type: ss
+    country: 🇺🇸 US
+    port: 7306
+    password: FoOiGlkAA9yPEGP
+    cipher: aes-256-gcm
+  - name: "🇺🇸 US_156-156-美国:美国:"
+    server: 172.99.190.149
+    type: ss
+    country: 🇺🇸 US
+    port: 3306
+    password: Y6R9pAtvxxzmGC
+    cipher: aes-256-gcm
+  - name: "🇺🇸 US_157-157-美国:美国:"
+    server: 38.121.43.71
+    type: ss
+    country: 🇺🇸 US
+    port: 5003
+    password: g5MeD6Ft3CWlJId
+    cipher: aes-256-gcm
+  - name: "🇺🇸 US_158-158-美国:美国:"
+    server: 172.99.190.149
+    type: ss
+    country: 🇺🇸 US
+    port: 5003
+    password: g5MeD6Ft3CWlJId
+    cipher: aes-256-gcm
+  - name: "🇺🇸 US_159-159-美国:美国:"
+    server: 172.99.190.149
+    type: ss
+    country: 🇺🇸 US
+    port: 5004
+    password: g5MeD6Ft3CWlJId
+    cipher: aes-256-gcm
+  - name: "🇺🇸 US_160-160-美国:美国:"
+    server: 172.99.190.149
+    type: ss
+    country: 🇺🇸 US
+    port: 8090
+    password: PCnnH6SQSnfoS27
+    cipher: aes-256-gcm
+  - name: "🇺🇸 US_161-161-加拿大:加拿大:"
+    server: 142.202.48.34
+    type: ss
+    country: 🇺🇸 US
+    port: 7307
+    password: FoOiGlkAA9yPEGP
+    cipher: aes-256-gcm
+  - name: 🇺🇸 US_162-162-加拿大:蒙特利尔
     server: v1.ssrsub.com
     type: vmess
     country: 🇺🇸 US
@@ -693,23 +1215,194 @@ proxies:
     h2-opts: {}
     tls: true
     skip-cert-verify: true
-  - name: 🇺🇸 US_88-88-美国:聖塔克拉利塔
-    server: lsj03.wangxd.life
-    type: trojan
+  - name: 🇺🇸 US_163-163-香港:中環
+    server: 511hk.fans8.xyz
+    type: vmess
     country: 🇺🇸 US
-    port: 3052
-    password: ae71ffdc-3206-3b4d-3f4e-e3b63684a556
+    port: 80
+    uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+    alterId: 2
+    cipher: auto
+    network: ws
+    ws-path: /ray
+    servername: 511hk.fans8.xyz
+    ws-headers:
+      HOST: 511hk.fans8.xyz
+    http-opts: {}
+    h2-opts: {}
+    tls: true
     skip-cert-verify: true
-    udp: true
-  - name: 🇺🇸 US_89-89-日本:东京
-    server: s2.upyun.online
-    type: trojan
+  - name: 🇺🇸 US_164-164-加拿大:多伦多
+    server: v2.ssrsub.com
+    type: vmess
     country: 🇺🇸 US
-    port: 12340
-    password: c0276440-f163-4f40-a08c-78b158ce6c4f
+    port: 443
+    uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-path: /api/v3/download.getFile
+    servername: v2.ssrsub.com
+    ws-headers:
+      HOST: v2.ssrsub.com
+    http-opts: {}
+    h2-opts: {}
+    tls: true
     skip-cert-verify: true
-    udp: true
-  - name: 🇺🇸 US_90-90-日本:东京
+  - name: "🇺🇸 US_165-165-美国:美国:"
+    server: 104.166.135.10
+    type: vmess
+    country: 🇺🇸 US
+    port: 443
+    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+    alterId: 4
+    cipher: auto
+    network: ws
+    ws-path: /ws
+    servername: ahdaeph8.com
+    ws-headers:
+      HOST: ahdaeph8.com
+    http-opts: {}
+    h2-opts: {}
+    tls: true
+    skip-cert-verify: true
+  - name: 🇺🇸 US_166-166-台湾:台北市
+    server: 330tw.fans8.xyz
+    type: vmess
+    country: 🇺🇸 US
+    port: 443
+    uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+    alterId: 2
+    cipher: auto
+    network: ws
+    ws-path: /ray
+    servername: 330tw.fans8.xyz
+    ws-headers:
+      HOST: 330tw.fans8.xyz
+    http-opts: {}
+    h2-opts: {}
+    tls: true
+    skip-cert-verify: true
+  - name: 🇺🇸 US_167-167-法国:巴黎
+    server: ahdaeph8.com
+    type: vmess
+    country: 🇺🇸 US
+    port: 443
+    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+    alterId: 4
+    cipher: auto
+    network: ws
+    ws-path: /ws
+    servername: ahdaeph8.com
+    ws-headers:
+      HOST: ahdaeph8.com
+    http-opts: {}
+    h2-opts: {}
+    tls: true
+    skip-cert-verify: true
+  - name: 🇺🇸 US_168-168-加拿大:多伦多
+    server: v4.ssrsub.com
+    type: vmess
+    country: 🇺🇸 US
+    port: 443
+    uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-path: /api/v3/download.getFile
+    servername: v4.ssrsub.com
+    ws-headers:
+      HOST: v4.ssrsub.com
+    http-opts: {}
+    h2-opts: {}
+    tls: true
+    skip-cert-verify: true
+  - name: "🇺🇸 US_169-169-美国:美国:"
+    server: 154.94.214.2
+    type: vmess
+    country: 🇺🇸 US
+    port: 443
+    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+    alterId: 4
+    cipher: auto
+    network: ws
+    ws-path: /ws
+    servername: lvuft.com
+    ws-headers:
+      HOST: lvuft.com
+    http-opts: {}
+    h2-opts: {}
+    tls: true
+    skip-cert-verify: true
+  - name: 🇺🇸 US_170-170-中華民國:臺北市
+    server: 331tw.fans8.xyz
+    type: vmess
+    country: 🇺🇸 US
+    port: 80
+    uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+    alterId: 2
+    cipher: auto
+    network: ws
+    ws-path: /ray
+    servername: 331tw.fans8.xyz
+    ws-headers:
+      HOST: 331tw.fans8.xyz
+    http-opts: {}
+    h2-opts: {}
+    tls: true
+    skip-cert-verify: true
+  - name: 🇺🇸 US_171-171-美国:洛杉矶
+    server: lvuft.com
+    type: vmess
+    country: 🇺🇸 US
+    port: 443
+    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+    alterId: 4
+    cipher: auto
+    network: ws
+    ws-path: /ws
+    servername: lvuft.com
+    ws-headers:
+      HOST: lvuft.com
+    http-opts: {}
+    h2-opts: {}
+    tls: true
+    skip-cert-verify: true
+  - name: 🇺🇸 US_172-172-加拿大:蒙特利尔
+    server: v5.ssrsub.com
+    type: vmess
+    country: 🇺🇸 US
+    port: 443
+    uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-path: /api/v3/download.getFile
+    servername: v5.ssrsub.com
+    ws-headers:
+      HOST: v5.ssrsub.com
+    http-opts: {}
+    h2-opts: {}
+    tls: true
+    skip-cert-verify: true
+  - name: 🇺🇸 US_173-173-日本:东京
+    server: 51jp1.fans8.xyz
+    type: vmess
+    country: 🇺🇸 US
+    port: 80
+    uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+    alterId: 2
+    cipher: auto
+    network: ws
+    ws-path: /ray
+    servername: 51jp1.fans8.xyz
+    ws-headers:
+      HOST: 51jp1.fans8.xyz
+    http-opts: {}
+    h2-opts: {}
+    tls: true
+    skip-cert-verify: true
+  - name: 🇺🇸 US_174-174-日本:东京
     server: s1.upyun.online
     type: trojan
     country: 🇺🇸 US
@@ -717,543 +1410,136 @@ proxies:
     password: c0276440-f163-4f40-a08c-78b158ce6c4f
     skip-cert-verify: true
     udp: true
-  - name: "🏁 ZZ_91-91-美国:美国:"
-    server: 169.197.141.91
+  - name: 🇺🇸 US_175-175-美国:圣克拉拉
+    server: charge.starspace.link
+    type: trojan
+    country: 🇺🇸 US
+    port: 443
+    password: 8UnS7eSMi8OFKfje
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 US_176-176-日本:东京
+    server: s2.upyun.online
+    type: trojan
+    country: 🇺🇸 US
+    port: 12340
+    password: 316b40c0-0dab-4ea1-9666-ac1658b033b2
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 US_177-177-美国:洛杉矶
+    server: values.pickaxe.sh
+    type: trojan
+    country: 🇺🇸 US
+    port: 443
+    password: PMQFH35hsbfi5tnw
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 US_178-178-日本:东京
+    server: s2.upyun.online
+    type: trojan
+    country: 🇺🇸 US
+    port: 12340
+    password: c0276440-f163-4f40-a08c-78b158ce6c4f
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 US_179-179-日本:东京
+    server: s1.upyun.online
+    type: trojan
+    country: 🇺🇸 US
+    port: 12340
+    password: 316b40c0-0dab-4ea1-9666-ac1658b033b2
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 US_180-180-韩国:春川市
+    server: jgwcc2.gaox.ml
+    type: trojan
+    country: 🇺🇸 US
+    port: 443
+    password: 9c822f05-cfdc-479a-9534-60f3d4127435
+    skip-cert-verify: true
+    udp: true
+  - name: "🏁 ZZ_181-181-亚太地区:亚太地区:"
+    server: 103.172.116.9
     type: ss
     country: 🏁 ZZ
-    port: 5004
-    password: g5MeD6Ft3CWlJId
-    cipher: aes-256-gcm
-  - name: "🏁 ZZ_92-92-美国:美国:"
-    server: 169.197.141.15
-    type: ss
-    country: 🏁 ZZ
-    port: 6379
-    password: zDNVedRFPQexG9v
-    cipher: aes-256-gcm
-  - name: "🏁 ZZ_93-93-美国:美国:"
-    server: 169.197.141.91
-    type: ss
-    country: 🏁 ZZ
-    port: 9101
-    password: e4FCWrgpkji3QY
-    cipher: aes-256-gcm
-  - name: "🏁 ZZ_94-94-美国:美国:"
+    port: 9027
+    password: EXN3S3eQpjE7EJu8
+    cipher: aes-256-cfb
+  - name: "🏁 ZZ_182-182-美国:美国:"
     server: 169.197.141.91
     type: ss
     country: 🏁 ZZ
     port: 7306
     password: FoOiGlkAA9yPEGP
     cipher: aes-256-gcm
-proxy-providers: {}
-rule-providers:
-  reject:
-    type: http
-    behavior: domain
-    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt
-    path: ./ruleset/reject.yaml
-    interval: 86400
-  icloud:
-    type: http
-    behavior: domain
-    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/icloud.txt
-    path: ./ruleset/icloud.yaml
-    interval: 86400
-  apple:
-    type: http
-    behavior: domain
-    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/apple.txt
-    path: ./ruleset/apple.yaml
-    interval: 86400
-  google:
-    type: http
-    behavior: domain
-    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.txt
-    path: ./ruleset/google.yaml
-    interval: 86400
-  proxy:
-    type: http
-    behavior: domain
-    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt
-    path: ./ruleset/proxy.yaml
-    interval: 86400
-  direct:
-    type: http
-    behavior: domain
-    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt
-    path: ./ruleset/direct.yaml
-    interval: 86400
-  private:
-    type: http
-    behavior: domain
-    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt
-    path: ./ruleset/private.yaml
-    interval: 86400
-  gfw:
-    type: http
-    behavior: domain
-    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.txt
-    path: ./ruleset/gfw.yaml
-    interval: 86400
-  greatfire:
-    type: http
-    behavior: domain
-    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/greatfire.txt
-    path: ./ruleset/greatfire.yaml
-    interval: 86400
-  tld-not-cn:
-    type: http
-    behavior: domain
-    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/tld-not-cn.txt
-    path: ./ruleset/tld-not-cn.yaml
-    interval: 86400
-  telegramcidr:
-    type: http
-    behavior: ipcidr
-    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt
-    path: ./ruleset/telegramcidr.yaml
-    interval: 86400
-  cncidr:
-    type: http
-    behavior: ipcidr
-    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt
-    path: ./ruleset/cncidr.yaml
-    interval: 86400
-  lancidr:
-    type: http
-    behavior: ipcidr
-    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt
-    path: ./ruleset/lancidr.yaml
-    interval: 86400
-  applications:
-    type: http
-    behavior: classical
-    url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt
-    path: ./ruleset/applications.yaml
-    interval: 86400
-rules:
-  - DOMAIN,google.com,点击选择
-  - RULE-SET,applications,DIRECT
-  - DOMAIN,clash.razord.top,DIRECT
-  - DOMAIN,yacd.haishan.me,DIRECT
-  - RULE-SET,private,DIRECT
-  - RULE-SET,reject,REJECT
-  - RULE-SET,icloud,DIRECT
-  - RULE-SET,apple,DIRECT
-  - RULE-SET,google,DIRECT
-  - RULE-SET,proxy,点击选择
-  - RULE-SET,direct,DIRECT
-  - RULE-SET,lancidr,DIRECT
-  - RULE-SET,cncidr,DIRECT
-  - RULE-SET,telegramcidr,点击选择
-  - GEOIP,,DIRECT
-  - GEOIP,CN,DIRECT
-  - MATCH,点击选择
-proxy-groups:
-  - name: 点击选择
-    type: select
-    url: https://www.google.com/generate_204
-    interval: 900
-    proxies:
-      - utl-test
-      - load-balance
-      - manul
-      - fallback
-  - name: utl-test
-    type: url-test
-    url: https://www.google.com/generate_204
-    interval: 120
-    proxies:
-      - _01-1-中国:广东:广州
-      - _02-2-中国:广东:广州
-      - _03-3-中国:广东:广州
-      - _04-4-中国:广东:广州
-      - _05-5-中国:广东:广州
-      - _06-6-中国:广东:广州
-      - _07-7-中国:广东:广州
-      - _08-8-中国:广东:广州
-      - _09-9-中国:广东:广州
-      - _10-10-中国:广东:广州
-      - _11-11-中国:广东:广州
-      - "_12-12-美国:美国:"
-      - _13-13-中国:广东:广州
-      - _14-14-中国:广东:广州
-      - _15-15-中国:广东:广州
-      - "🇦🇺 AU_16-16-英国:英国:"
-      - "🇦🇺 AU_17-17-澳大利亚:澳大利亚:"
-      - "🇦🇺 AU_18-18-澳大利亚:澳大利亚:"
-      - 🇦🇺 AU_19-19-澳大利亚:悉尼
-      - "🇧🇬 BG_20-20-保加利亚:保加利亚:"
-      - "🇧🇬 BG_21-21-保加利亚:保加利亚:"
-      - "🇧🇬 BG_22-22-保加利亚:保加利亚:"
-      - "🇨🇦 CA_23-23-美国:美国:"
-      - "🇨🇦 CA_24-24-美国:美国:"
-      - "🇨🇦 CA_25-25-加拿大:加拿大:"
-      - "🇨🇦 CA_26-26-美国:美国:"
-      - "🇨🇦 CA_27-27-美国:美国:"
-      - "🇨🇦 CA_28-28-加拿大:加拿大:"
-      - "🇨🇦 CA_29-29-美国:美国:"
-      - "🇨🇦 CA_30-30-美国:美国:"
-      - "🇨🇦 CA_31-31-美国:美国:"
-      - "🇨🇦 CA_32-32-美国:美国:"
-      - "🇨🇦 CA_33-33-美国:美国:"
-      - 🇨🇳 CN_34-34-中国:深圳
-      - 🇨🇳 CN_35-35-中国:深圳
-      - 🇨🇳 CN_36-36-中国:深圳
-      - 🇨🇳 CN_37-37-中国:深圳
-      - 🇨🇳 CN_38-38-中国:坝田
-      - "🇩🇪 DE_39-39-英国:英国:"
-      - "🇩🇪 DE_40-40-英国:英国:"
-      - "🇩🇪 DE_41-41-英国:英国:"
-      - "🇩🇪 DE_42-42-英国:英国:"
-      - "🇩🇪 DE_43-43-英国:英国:"
-      - "🇩🇪 DE_44-44-英国:英国:"
-      - "🇩🇪 DE_45-45-英国:英国:"
-      - 🇩🇪 DE_46-46-德国:Falkenstein
-      - "🇫🇷 FR_47-47-法国:法国:"
-      - 🇬🇧 GB_48-48-英国:伦敦
-      - "🇷🇺 RU_49-49-俄罗斯:俄罗斯:"
-      - "🇷🇺 RU_50-50-俄罗斯:俄罗斯:"
-      - "🇷🇺 RU_51-51-俄罗斯:俄罗斯:"
-      - "🇷🇺 RU_52-52-俄罗斯:俄罗斯:"
-      - "🇷🇺 RU_53-53-俄罗斯:俄罗斯:"
-      - "🇷🇺 RU_54-54-俄罗斯:俄罗斯:"
-      - 🇸🇬 SG_55-55-新加坡:新加坡
-      - 🇸🇬 SG_56-56-新加坡:新加坡
-      - "🇺🇸 US_57-57-瑞典:瑞典:"
-      - "🇺🇸 US_58-58-瑞典:瑞典:"
-      - "🇺🇸 US_59-59-瑞典:瑞典:"
-      - "🇺🇸 US_60-60-美国:美国:"
-      - "🇺🇸 US_61-61-加拿大:加拿大:"
-      - "🇺🇸 US_62-62-加拿大:加拿大:"
-      - "🇺🇸 US_63-63-加拿大:加拿大:"
-      - "🇺🇸 US_64-64-美国:美国:"
-      - "🇺🇸 US_65-65-美国:美国:"
-      - "🇺🇸 US_66-66-加拿大:加拿大:"
-      - "🇺🇸 US_67-67-美国:美国:"
-      - "🇺🇸 US_68-68-瑞典:瑞典:"
-      - "🇺🇸 US_69-69-美国:美国:"
-      - "🇺🇸 US_70-70-瑞典:瑞典:"
-      - "🇺🇸 US_71-71-加拿大:加拿大:"
-      - "🇺🇸 US_72-72-瑞典:瑞典:"
-      - "🇺🇸 US_73-73-美国:美国:"
-      - "🇺🇸 US_74-74-美国:美国:"
-      - "🇺🇸 US_75-75-美国:美国:"
-      - "🇺🇸 US_76-76-加拿大:加拿大:"
-      - "🇺🇸 US_77-77-瑞典:瑞典:"
-      - "🇺🇸 US_78-78-美国:美国:"
-      - "🇺🇸 US_79-79-美国:美国:"
-      - "🇺🇸 US_80-80-瑞典:瑞典:"
-      - "🇺🇸 US_81-81-美国:美国:"
-      - "🇺🇸 US_82-82-美国:美国:"
-      - "🇺🇸 US_83-83-美国:美国:"
-      - "🇺🇸 US_84-84-美国:美国:"
-      - "🇺🇸 US_85-85-瑞典:瑞典:"
-      - 🇺🇸 US_86-86-加拿大:多伦多
-      - 🇺🇸 US_87-87-加拿大:多伦多
-      - 🇺🇸 US_88-88-美国:聖塔克拉利塔
-      - 🇺🇸 US_89-89-日本:东京
-      - 🇺🇸 US_90-90-日本:东京
-      - "🏁 ZZ_91-91-美国:美国:"
-      - "🏁 ZZ_92-92-美国:美国:"
-      - "🏁 ZZ_93-93-美国:美国:"
-      - "🏁 ZZ_94-94-美国:美国:"
-  - name: manul
-    type: select
-    url: https://www.google.com/generate_204
-    interval: 120
-    proxies:
-      - _01-1-中国:广东:广州
-      - _02-2-中国:广东:广州
-      - _03-3-中国:广东:广州
-      - _04-4-中国:广东:广州
-      - _05-5-中国:广东:广州
-      - _06-6-中国:广东:广州
-      - _07-7-中国:广东:广州
-      - _08-8-中国:广东:广州
-      - _09-9-中国:广东:广州
-      - _10-10-中国:广东:广州
-      - _11-11-中国:广东:广州
-      - "_12-12-美国:美国:"
-      - _13-13-中国:广东:广州
-      - _14-14-中国:广东:广州
-      - _15-15-中国:广东:广州
-      - "🇦🇺 AU_16-16-英国:英国:"
-      - "🇦🇺 AU_17-17-澳大利亚:澳大利亚:"
-      - "🇦🇺 AU_18-18-澳大利亚:澳大利亚:"
-      - 🇦🇺 AU_19-19-澳大利亚:悉尼
-      - "🇧🇬 BG_20-20-保加利亚:保加利亚:"
-      - "🇧🇬 BG_21-21-保加利亚:保加利亚:"
-      - "🇧🇬 BG_22-22-保加利亚:保加利亚:"
-      - "🇨🇦 CA_23-23-美国:美国:"
-      - "🇨🇦 CA_24-24-美国:美国:"
-      - "🇨🇦 CA_25-25-加拿大:加拿大:"
-      - "🇨🇦 CA_26-26-美国:美国:"
-      - "🇨🇦 CA_27-27-美国:美国:"
-      - "🇨🇦 CA_28-28-加拿大:加拿大:"
-      - "🇨🇦 CA_29-29-美国:美国:"
-      - "🇨🇦 CA_30-30-美国:美国:"
-      - "🇨🇦 CA_31-31-美国:美国:"
-      - "🇨🇦 CA_32-32-美国:美国:"
-      - "🇨🇦 CA_33-33-美国:美国:"
-      - 🇨🇳 CN_34-34-中国:深圳
-      - 🇨🇳 CN_35-35-中国:深圳
-      - 🇨🇳 CN_36-36-中国:深圳
-      - 🇨🇳 CN_37-37-中国:深圳
-      - 🇨🇳 CN_38-38-中国:坝田
-      - "🇩🇪 DE_39-39-英国:英国:"
-      - "🇩🇪 DE_40-40-英国:英国:"
-      - "🇩🇪 DE_41-41-英国:英国:"
-      - "🇩🇪 DE_42-42-英国:英国:"
-      - "🇩🇪 DE_43-43-英国:英国:"
-      - "🇩🇪 DE_44-44-英国:英国:"
-      - "🇩🇪 DE_45-45-英国:英国:"
-      - 🇩🇪 DE_46-46-德国:Falkenstein
-      - "🇫🇷 FR_47-47-法国:法国:"
-      - 🇬🇧 GB_48-48-英国:伦敦
-      - "🇷🇺 RU_49-49-俄罗斯:俄罗斯:"
-      - "🇷🇺 RU_50-50-俄罗斯:俄罗斯:"
-      - "🇷🇺 RU_51-51-俄罗斯:俄罗斯:"
-      - "🇷🇺 RU_52-52-俄罗斯:俄罗斯:"
-      - "🇷🇺 RU_53-53-俄罗斯:俄罗斯:"
-      - "🇷🇺 RU_54-54-俄罗斯:俄罗斯:"
-      - 🇸🇬 SG_55-55-新加坡:新加坡
-      - 🇸🇬 SG_56-56-新加坡:新加坡
-      - "🇺🇸 US_57-57-瑞典:瑞典:"
-      - "🇺🇸 US_58-58-瑞典:瑞典:"
-      - "🇺🇸 US_59-59-瑞典:瑞典:"
-      - "🇺🇸 US_60-60-美国:美国:"
-      - "🇺🇸 US_61-61-加拿大:加拿大:"
-      - "🇺🇸 US_62-62-加拿大:加拿大:"
-      - "🇺🇸 US_63-63-加拿大:加拿大:"
-      - "🇺🇸 US_64-64-美国:美国:"
-      - "🇺🇸 US_65-65-美国:美国:"
-      - "🇺🇸 US_66-66-加拿大:加拿大:"
-      - "🇺🇸 US_67-67-美国:美国:"
-      - "🇺🇸 US_68-68-瑞典:瑞典:"
-      - "🇺🇸 US_69-69-美国:美国:"
-      - "🇺🇸 US_70-70-瑞典:瑞典:"
-      - "🇺🇸 US_71-71-加拿大:加拿大:"
-      - "🇺🇸 US_72-72-瑞典:瑞典:"
-      - "🇺🇸 US_73-73-美国:美国:"
-      - "🇺🇸 US_74-74-美国:美国:"
-      - "🇺🇸 US_75-75-美国:美国:"
-      - "🇺🇸 US_76-76-加拿大:加拿大:"
-      - "🇺🇸 US_77-77-瑞典:瑞典:"
-      - "🇺🇸 US_78-78-美国:美国:"
-      - "🇺🇸 US_79-79-美国:美国:"
-      - "🇺🇸 US_80-80-瑞典:瑞典:"
-      - "🇺🇸 US_81-81-美国:美国:"
-      - "🇺🇸 US_82-82-美国:美国:"
-      - "🇺🇸 US_83-83-美国:美国:"
-      - "🇺🇸 US_84-84-美国:美国:"
-      - "🇺🇸 US_85-85-瑞典:瑞典:"
-      - 🇺🇸 US_86-86-加拿大:多伦多
-      - 🇺🇸 US_87-87-加拿大:多伦多
-      - 🇺🇸 US_88-88-美国:聖塔克拉利塔
-      - 🇺🇸 US_89-89-日本:东京
-      - 🇺🇸 US_90-90-日本:东京
-      - "🏁 ZZ_91-91-美国:美国:"
-      - "🏁 ZZ_92-92-美国:美国:"
-      - "🏁 ZZ_93-93-美国:美国:"
-      - "🏁 ZZ_94-94-美国:美国:"
-  - name: load-balance
-    type: load-balance
-    url: https://www.google.com/generate_204
-    interval: 120
-    proxies:
-      - _01-1-中国:广东:广州
-      - _02-2-中国:广东:广州
-      - _03-3-中国:广东:广州
-      - _04-4-中国:广东:广州
-      - _05-5-中国:广东:广州
-      - _06-6-中国:广东:广州
-      - _07-7-中国:广东:广州
-      - _08-8-中国:广东:广州
-      - _09-9-中国:广东:广州
-      - _10-10-中国:广东:广州
-      - _11-11-中国:广东:广州
-      - "_12-12-美国:美国:"
-      - _13-13-中国:广东:广州
-      - _14-14-中国:广东:广州
-      - _15-15-中国:广东:广州
-      - "🇦🇺 AU_16-16-英国:英国:"
-      - "🇦🇺 AU_17-17-澳大利亚:澳大利亚:"
-      - "🇦🇺 AU_18-18-澳大利亚:澳大利亚:"
-      - 🇦🇺 AU_19-19-澳大利亚:悉尼
-      - "🇧🇬 BG_20-20-保加利亚:保加利亚:"
-      - "🇧🇬 BG_21-21-保加利亚:保加利亚:"
-      - "🇧🇬 BG_22-22-保加利亚:保加利亚:"
-      - "🇨🇦 CA_23-23-美国:美国:"
-      - "🇨🇦 CA_24-24-美国:美国:"
-      - "🇨🇦 CA_25-25-加拿大:加拿大:"
-      - "🇨🇦 CA_26-26-美国:美国:"
-      - "🇨🇦 CA_27-27-美国:美国:"
-      - "🇨🇦 CA_28-28-加拿大:加拿大:"
-      - "🇨🇦 CA_29-29-美国:美国:"
-      - "🇨🇦 CA_30-30-美国:美国:"
-      - "🇨🇦 CA_31-31-美国:美国:"
-      - "🇨🇦 CA_32-32-美国:美国:"
-      - "🇨🇦 CA_33-33-美国:美国:"
-      - 🇨🇳 CN_34-34-中国:深圳
-      - 🇨🇳 CN_35-35-中国:深圳
-      - 🇨🇳 CN_36-36-中国:深圳
-      - 🇨🇳 CN_37-37-中国:深圳
-      - 🇨🇳 CN_38-38-中国:坝田
-      - "🇩🇪 DE_39-39-英国:英国:"
-      - "🇩🇪 DE_40-40-英国:英国:"
-      - "🇩🇪 DE_41-41-英国:英国:"
-      - "🇩🇪 DE_42-42-英国:英国:"
-      - "🇩🇪 DE_43-43-英国:英国:"
-      - "🇩🇪 DE_44-44-英国:英国:"
-      - "🇩🇪 DE_45-45-英国:英国:"
-      - 🇩🇪 DE_46-46-德国:Falkenstein
-      - "🇫🇷 FR_47-47-法国:法国:"
-      - 🇬🇧 GB_48-48-英国:伦敦
-      - "🇷🇺 RU_49-49-俄罗斯:俄罗斯:"
-      - "🇷🇺 RU_50-50-俄罗斯:俄罗斯:"
-      - "🇷🇺 RU_51-51-俄罗斯:俄罗斯:"
-      - "🇷🇺 RU_52-52-俄罗斯:俄罗斯:"
-      - "🇷🇺 RU_53-53-俄罗斯:俄罗斯:"
-      - "🇷🇺 RU_54-54-俄罗斯:俄罗斯:"
-      - 🇸🇬 SG_55-55-新加坡:新加坡
-      - 🇸🇬 SG_56-56-新加坡:新加坡
-      - "🇺🇸 US_57-57-瑞典:瑞典:"
-      - "🇺🇸 US_58-58-瑞典:瑞典:"
-      - "🇺🇸 US_59-59-瑞典:瑞典:"
-      - "🇺🇸 US_60-60-美国:美国:"
-      - "🇺🇸 US_61-61-加拿大:加拿大:"
-      - "🇺🇸 US_62-62-加拿大:加拿大:"
-      - "🇺🇸 US_63-63-加拿大:加拿大:"
-      - "🇺🇸 US_64-64-美国:美国:"
-      - "🇺🇸 US_65-65-美国:美国:"
-      - "🇺🇸 US_66-66-加拿大:加拿大:"
-      - "🇺🇸 US_67-67-美国:美国:"
-      - "🇺🇸 US_68-68-瑞典:瑞典:"
-      - "🇺🇸 US_69-69-美国:美国:"
-      - "🇺🇸 US_70-70-瑞典:瑞典:"
-      - "🇺🇸 US_71-71-加拿大:加拿大:"
-      - "🇺🇸 US_72-72-瑞典:瑞典:"
-      - "🇺🇸 US_73-73-美国:美国:"
-      - "🇺🇸 US_74-74-美国:美国:"
-      - "🇺🇸 US_75-75-美国:美国:"
-      - "🇺🇸 US_76-76-加拿大:加拿大:"
-      - "🇺🇸 US_77-77-瑞典:瑞典:"
-      - "🇺🇸 US_78-78-美国:美国:"
-      - "🇺🇸 US_79-79-美国:美国:"
-      - "🇺🇸 US_80-80-瑞典:瑞典:"
-      - "🇺🇸 US_81-81-美国:美国:"
-      - "🇺🇸 US_82-82-美国:美国:"
-      - "🇺🇸 US_83-83-美国:美国:"
-      - "🇺🇸 US_84-84-美国:美国:"
-      - "🇺🇸 US_85-85-瑞典:瑞典:"
-      - 🇺🇸 US_86-86-加拿大:多伦多
-      - 🇺🇸 US_87-87-加拿大:多伦多
-      - 🇺🇸 US_88-88-美国:聖塔克拉利塔
-      - 🇺🇸 US_89-89-日本:东京
-      - 🇺🇸 US_90-90-日本:东京
-      - "🏁 ZZ_91-91-美国:美国:"
-      - "🏁 ZZ_92-92-美国:美国:"
-      - "🏁 ZZ_93-93-美国:美国:"
-      - "🏁 ZZ_94-94-美国:美国:"
-  - name: fallback
-    type: fallback
-    url: https://www.google.com/generate_204
-    interval: 120
-    proxies:
-      - _01-1-中国:广东:广州
-      - _02-2-中国:广东:广州
-      - _03-3-中国:广东:广州
-      - _04-4-中国:广东:广州
-      - _05-5-中国:广东:广州
-      - _06-6-中国:广东:广州
-      - _07-7-中国:广东:广州
-      - _08-8-中国:广东:广州
-      - _09-9-中国:广东:广州
-      - _10-10-中国:广东:广州
-      - _11-11-中国:广东:广州
-      - "_12-12-美国:美国:"
-      - _13-13-中国:广东:广州
-      - _14-14-中国:广东:广州
-      - _15-15-中国:广东:广州
-      - "🇦🇺 AU_16-16-英国:英国:"
-      - "🇦🇺 AU_17-17-澳大利亚:澳大利亚:"
-      - "🇦🇺 AU_18-18-澳大利亚:澳大利亚:"
-      - 🇦🇺 AU_19-19-澳大利亚:悉尼
-      - "🇧🇬 BG_20-20-保加利亚:保加利亚:"
-      - "🇧🇬 BG_21-21-保加利亚:保加利亚:"
-      - "🇧🇬 BG_22-22-保加利亚:保加利亚:"
-      - "🇨🇦 CA_23-23-美国:美国:"
-      - "🇨🇦 CA_24-24-美国:美国:"
-      - "🇨🇦 CA_25-25-加拿大:加拿大:"
-      - "🇨🇦 CA_26-26-美国:美国:"
-      - "🇨🇦 CA_27-27-美国:美国:"
-      - "🇨🇦 CA_28-28-加拿大:加拿大:"
-      - "🇨🇦 CA_29-29-美国:美国:"
-      - "🇨🇦 CA_30-30-美国:美国:"
-      - "🇨🇦 CA_31-31-美国:美国:"
-      - "🇨🇦 CA_32-32-美国:美国:"
-      - "🇨🇦 CA_33-33-美国:美国:"
-      - 🇨🇳 CN_34-34-中国:深圳
-      - 🇨🇳 CN_35-35-中国:深圳
-      - 🇨🇳 CN_36-36-中国:深圳
-      - 🇨🇳 CN_37-37-中国:深圳
-      - 🇨🇳 CN_38-38-中国:坝田
-      - "🇩🇪 DE_39-39-英国:英国:"
-      - "🇩🇪 DE_40-40-英国:英国:"
-      - "🇩🇪 DE_41-41-英国:英国:"
-      - "🇩🇪 DE_42-42-英国:英国:"
-      - "🇩🇪 DE_43-43-英国:英国:"
-      - "🇩🇪 DE_44-44-英国:英国:"
-      - "🇩🇪 DE_45-45-英国:英国:"
-      - 🇩🇪 DE_46-46-德国:Falkenstein
-      - "🇫🇷 FR_47-47-法国:法国:"
-      - 🇬🇧 GB_48-48-英国:伦敦
-      - "🇷🇺 RU_49-49-俄罗斯:俄罗斯:"
-      - "🇷🇺 RU_50-50-俄罗斯:俄罗斯:"
-      - "🇷🇺 RU_51-51-俄罗斯:俄罗斯:"
-      - "🇷🇺 RU_52-52-俄罗斯:俄罗斯:"
-      - "🇷🇺 RU_53-53-俄罗斯:俄罗斯:"
-      - "🇷🇺 RU_54-54-俄罗斯:俄罗斯:"
-      - 🇸🇬 SG_55-55-新加坡:新加坡
-      - 🇸🇬 SG_56-56-新加坡:新加坡
-      - "🇺🇸 US_57-57-瑞典:瑞典:"
-      - "🇺🇸 US_58-58-瑞典:瑞典:"
-      - "🇺🇸 US_59-59-瑞典:瑞典:"
-      - "🇺🇸 US_60-60-美国:美国:"
-      - "🇺🇸 US_61-61-加拿大:加拿大:"
-      - "🇺🇸 US_62-62-加拿大:加拿大:"
-      - "🇺🇸 US_63-63-加拿大:加拿大:"
-      - "🇺🇸 US_64-64-美国:美国:"
-      - "🇺🇸 US_65-65-美国:美国:"
-      - "🇺🇸 US_66-66-加拿大:加拿大:"
-      - "🇺🇸 US_67-67-美国:美国:"
-      - "🇺🇸 US_68-68-瑞典:瑞典:"
-      - "🇺🇸 US_69-69-美国:美国:"
-      - "🇺🇸 US_70-70-瑞典:瑞典:"
-      - "🇺🇸 US_71-71-加拿大:加拿大:"
-      - "🇺🇸 US_72-72-瑞典:瑞典:"
-      - "🇺🇸 US_73-73-美国:美国:"
-      - "🇺🇸 US_74-74-美国:美国:"
-      - "🇺🇸 US_75-75-美国:美国:"
-      - "🇺🇸 US_76-76-加拿大:加拿大:"
-      - "🇺🇸 US_77-77-瑞典:瑞典:"
-      - "🇺🇸 US_78-78-美国:美国:"
-      - "🇺🇸 US_79-79-美国:美国:"
-      - "🇺🇸 US_80-80-瑞典:瑞典:"
-      - "🇺🇸 US_81-81-美国:美国:"
-      - "🇺🇸 US_82-82-美国:美国:"
-      - "🇺🇸 US_83-83-美国:美国:"
-      - "🇺🇸 US_84-84-美国:美国:"
-      - "🇺🇸 US_85-85-瑞典:瑞典:"
-      - 🇺🇸 US_86-86-加拿大:多伦多
-      - 🇺🇸 US_87-87-加拿大:多伦多
-      - 🇺🇸 US_88-88-美国:聖塔克拉利塔
-      - 🇺🇸 US_89-89-日本:东京
-      - 🇺🇸 US_90-90-日本:东京
-      - "🏁 ZZ_91-91-美国:美国:"
-      - "🏁 ZZ_92-92-美国:美国:"
-      - "🏁 ZZ_93-93-美国:美国:"
-      - "🏁 ZZ_94-94-美国:美国:"
+  - name: "🏁 ZZ_183-183-亚太地区:亚太地区:"
+    server: 103.172.116.9
+    type: ss
+    country: 🏁 ZZ
+    port: 9018
+    password: fG2artUmHfNT2cX7
+    cipher: aes-256-cfb
+  - name: "🏁 ZZ_184-184-美国:美国:"
+    server: 169.197.141.91
+    type: ss
+    country: 🏁 ZZ
+    port: 5004
+    password: g5MeD6Ft3CWlJId
+    cipher: aes-256-gcm
+  - name: "🏁 ZZ_185-185-美国:美国:"
+    server: 169.197.141.15
+    type: ss
+    country: 🏁 ZZ
+    port: 6379
+    password: zDNVedRFPQexG9v
+    cipher: aes-256-gcm
+  - name: "🏁 ZZ_186-186-亚太地区:亚太地区:"
+    server: 103.172.116.9
+    type: ss
+    country: 🏁 ZZ
+    port: 9006
+    password: FAdUvMJUq5vDgKEq
+    cipher: aes-256-cfb
+  - name: "🏁 ZZ_187-187-美国:美国:"
+    server: 169.197.141.91
+    type: ss
+    country: 🏁 ZZ
+    port: 9101
+    password: e4FCWrgpkji3QY
+    cipher: aes-256-gcm
+  - name: "🏁 ZZ_188-188-亚太地区:亚太地区:"
+    server: 103.172.116.9
+    type: ss
+    country: 🏁 ZZ
+    port: 9079
+    password: TPqX8edgbAURcAMb
+    cipher: aes-256-cfb
+  - name: "🏁 ZZ_189-189-亚太地区:亚太地区:"
+    server: 103.172.116.9
+    type: ssr
+    country: 🏁 ZZ
+    port: 9040
+    password: p9z5BVADH2YFs3MN
+    cipher: aes-256-cfb
+    protocol: origin
+    obfs: plain
+  - name: "🏁 ZZ_190-190-亚太地区:亚太地区:"
+    server: 103.172.116.9
+    type: ssr
+    country: 🏁 ZZ
+    port: 9088
+    password: f8npKgNzdkss2ytn
+    cipher: aes-256-cfb
+    protocol: origin
+    obfs: plain
+  - name: "🏁 ZZ_191-191-亚太地区:亚太地区:"
+    server: 103.172.116.9
+    type: ssr
+    country: 🏁 ZZ
+    port: 9097
+    password: Sn5B7jTqr76aCJT8
+    cipher: aes-256-cfb
+    protocol: origin
+    obfs: plain
 
 
